@@ -12,8 +12,8 @@ Current version: 1.0
 
 compile:	
 
-	g++ OCTL.cpp -o OTCL
+	g++ OTCL.cpp -o OTCL
 
 run
 
-	./OCTL -b <reference tree> -i <gene tree> --seed <random seed> -n <size of leaf set S> -m <size of leaf set R> -o <output file>
+	./OTCL -b <reference tree> -i <gene tree> --seed <random seed> -n <size of leaf set S> -m <size of leaf set R> -o <output file>
